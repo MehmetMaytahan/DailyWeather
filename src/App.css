@@ -86,12 +86,6 @@ h1 {
   color: #fff;
 }
 
-@media screen and (max-width: 679px) {
-  .App .top {
-    margin: 3rem auto;
-  }
-}
-
 @media screen and (min-width: 2560px) {
   .App .top {
     margin: 15rem auto;
@@ -108,7 +102,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   h1 {
     font-size: 3rem;
   }
@@ -150,7 +144,7 @@ h1 {
   .bold {
     font-size: large;
   }
-  p{
+  p {
     font-size: large;
   }
 }

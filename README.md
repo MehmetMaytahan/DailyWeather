@@ -1,3 +1,3 @@
 ## Live
 
-Link: [Daily Weather App](https://mehmetmaytahan.github.io/DailyWeather/).
+Link: [Daily Weather App](https://mehmetmaytahan.github.io/DailyWeather/)

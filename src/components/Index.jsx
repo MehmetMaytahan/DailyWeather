@@ -20,8 +20,7 @@ const Index = () => {
 
     return `${day}-${month + 1}-${year}`;
   };
-  // console.log(currentData);
-  //24°C
+
   return (
     <div>
       <div className="search">

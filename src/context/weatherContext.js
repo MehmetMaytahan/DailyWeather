@@ -5,7 +5,7 @@ const WeatherContext = createContext();
 // https://api.openweathermap.org/data/2.5/forecast/daily?lat={lat}&lon={lon}&cnt={cnt}&appid={API key}
 // https://api.openweathermap.org/data/2.5/weather?q=${city}&cnt=7&units=metric&appid=${key}
 
-const key = process.env.REACT_APP_WEATHER_API;
+const key = "22f31d7932b13634d43111743814955a";
 
 const WeatherProvider = ({ children }) => {
   const [cityName, setCityName] = useState("istanbul");
@@ -24,7 +24,6 @@ const WeatherProvider = ({ children }) => {
       setCurrentData(data);
     } catch (error) {
       setErr(true);
-      console.log("yanlış isim");
     }
   };
 
